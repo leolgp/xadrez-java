@@ -1,6 +1,5 @@
 package aplicacao;
 
-import tabuleiro.Tabuleiro;
 import xadrez.Partida;
 
 public class Programa {
@@ -8,6 +7,7 @@ public class Programa {
         
         Partida partida = new Partida();
         IU.imprimirTabuleiro(partida.pegaPecas());
+        
           
 
     }
